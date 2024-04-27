@@ -8,7 +8,7 @@ import TimelineSection from "../components/core/Homepage/TimelineSection"
 import LearningLanguageSection from "../components/core/Homepage/LearningCards"
 import InstructorSection from "../components/core/Homepage/InstructorSection"
 import ExploreMore from "../components/core/Homepage/ExploreMore"
-import ColoredText from '../components/core/Homepage/ColoredText'
+
 
 import Footer from '../components/common/Footer'
 
@@ -34,7 +34,7 @@ const Home = () => {
 
         <div className='text-center text-4xl font-semibold mt-7'>
             Empower Your Future with
-            <ColoredText text={"Coding Skills"} />
+            <span className='text-caribbeangreen-100 font-bold'>Coding Skills</span>
         </div>
 
         <div className=' mt-4 w-[90%] text-center text-lg font-bold text-richblack-300'>
@@ -69,7 +69,7 @@ const Home = () => {
                 heading={
                     <div className='text-4xl font-semibold'>
                         Unlock Your
-                        <ColoredText text={"coding potential"}/>
+                       <span className='text-caribbeangreen-100 font-bold'>coding potential</span>
                         with our online courses
                     </div>
                 }
@@ -103,7 +103,7 @@ const Home = () => {
                 heading={
                     <div className='text-4xl font-semibold'>
                         Unlock Your
-                        <ColoredText text={"coding potential"}/>
+                       <span className='text-caribbeangreen-100 font-bold'>coding potential</span>
                         with our online courses
                     </div>
                 }
@@ -164,7 +164,7 @@ const Home = () => {
                 <div className='flex flex-row gap-5 mb-10 mt-[95px]'>
                     <div className='text-4xl font-semibold w-[45%]'>
                         Get the Skills you need for a
-                        <ColoredText text={"Job that is in demand"} />
+                       <span className='text-caribbeangreen-100 font-bold'>Job that is in demand</span>
                     </div>
 
                     <div className='flex flex-col gap-10 w-[40%] items-start'>

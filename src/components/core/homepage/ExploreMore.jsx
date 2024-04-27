@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HomePageExplore } from "../../../data/homepage-explore";
 import CourseCard from "./CourseCard";
-import ColoredText from "./ColoredText";
+
 
 const tabsName = [
   "Free",
@@ -30,8 +30,8 @@ const ExploreMore = () => {
       {/* Explore more section */}
       <div>
         <div className="text-4xl font-semibold text-center my-10">
-          Unlock the
-          <ColoredText text={"Power of Code "} />
+          Unlock the <span className='text-caribbeangreen-100 font-bold'>Power of Code</span>
+         
           <p className="text-center text-richblack-300 text-lg font-semibold mt-1">
             Learn to Build Anything You Can Imagine
           </p>
