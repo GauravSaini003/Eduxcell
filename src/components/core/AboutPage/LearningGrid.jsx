@@ -1,5 +1,5 @@
 import React from "react";
-import Activebutton from "../Homepage/Activebutton.jsx"
+import Activebutton from "../homepage/Activebutton.jsx"
 
 const LearningGridArray = [
   {
