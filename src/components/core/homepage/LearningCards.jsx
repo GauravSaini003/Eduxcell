@@ -2,7 +2,7 @@ import React from 'react'
 import know_your_progress  from "../../../assets/Images/Know_your_progress.png"
 import compare_with_others from "../../../assets/Images/Compare_with_others.png"
 import plan_your_lesson from "../../../assets/Images/Plan_your_lessons.png"
-import CTAbutton  from "./CTAbutton"
+import Activebutton from "./Activebutton"
 
 
 const LearningLanguageSection = () => {
@@ -38,11 +38,11 @@ const LearningLanguageSection = () => {
             </div>
 
             <div className='w-fit'>
-                <CTAbutton active={true} linkto={"/signup"}>
+                <Activebutton active={true} linkto={"/signup"}>
                     <div>
                         Learn more
                     </div>
-                </CTAbutton>
+                </Activebutton>
             </div>
 
       </div>

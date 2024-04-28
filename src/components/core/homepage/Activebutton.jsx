@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const CTAbutton = ({ children, active, linkto }) => {
+const Activebutton = ({ children, active, linkto }) => {
   return (
     <Link to={linkto}>
       <div className={`text-center font-semibold rounded-md py-1 px-3 text-[14px] hover:scale-95 transition-all duration-200 ${active ? "bg-yellow-100 text-black" : "bg-black text-white"}`}>
@@ -11,4 +11,4 @@ const CTAbutton = ({ children, active, linkto }) => {
   );
 };
 
-export default CTAbutton;
+export default Activebutton;

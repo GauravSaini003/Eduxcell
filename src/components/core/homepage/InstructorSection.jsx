@@ -1,6 +1,6 @@
 import React from 'react'
 import Instructor from "../../../assets/Images/Instructor.png"
-import CTAbutton from "../Homepage/CTAbutton"
+import Activebutton from "./Activebutton"
 import { FaArrowRight } from 'react-icons/fa'
 
 
@@ -28,12 +28,12 @@ const InstructorSection = () => {
             </p>
 
             <div className='w-fit'>
-                <CTAbutton active={true} linkto={"/signup"}>
+                <Activebutton active={true} linkto={"/signup"}>
                     <div className='flex flex-row gap-2 items-center'>
                         Start Learning Today
                         <FaArrowRight />
                     </div>
-                </CTAbutton>
+                </Activebutton>
             </div>
 
 

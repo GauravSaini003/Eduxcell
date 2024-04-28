@@ -1,7 +1,7 @@
 import React from 'react'
 import {FaArrowRight} from "react-icons/fa"
 import {Link} from "react-router-dom"
-import CTAbutton from "../components/core/Homepage/CTAbutton";
+import Activebutton from "../components/core/Homepage/Activebutton"
 import CodeBlocks from "../components/core/Homepage/CodeBlocks"
 import TimelineSection from "../components/core/Homepage/TimelineSection"
 import LearningLanguageSection from "../components/core/Homepage/LearningCards"
@@ -41,14 +41,14 @@ const Home = () => {
         </div>
 
         <div className='flex flex-row gap-7 mt-8'>
-            <CTAbutton active={true} > 
+            <Activebutton active={true} > 
             <Link to="/signup">Learn More</Link>
-            </CTAbutton>
+            </Activebutton>
 
-            <CTAbutton active={false}>
+            <Activebutton active={false}>
                 <Link to="/signup"> Book a Demo</Link>
                
-            </CTAbutton>
+            </Activebutton>
         </div>
 
         {/* <div className='mx-3 my-12 shadow-blue-200'>
@@ -139,18 +139,18 @@ const Home = () => {
                 <div className='w-11/12 max-w-maxContent flex flex-col items-center justify-between gap-5 mx-auto'>
                     <div className='h-[150px]'></div>
                     <div className='flex flex-row gap-7 text-white '>
-                        <CTAbutton active={true} linkto={"/signup"}>
+                        <Activebutton active={true} linkto={"/signup"}>
                             <div className='flex items-center gap-3' >
                                 Explore Full Catalog
                                 <FaArrowRight />
                             </div>
                             
-                        </CTAbutton>
-                        <CTAbutton active={false} linkto={"/signup"}>
+                        </Activebutton>
+                        <Activebutton active={false} linkto={"/signup"}>
                             <div>
                                 Learn more
                             </div>
-                        </CTAbutton>
+                        </Activebutton>
                     </div>
 
                 </div>
@@ -170,11 +170,11 @@ const Home = () => {
                     <div className='text-[16px]'>
                     The modern StudyNotion is the dictates its own terms. Today, to be a competitive specialist requires more than professional skills.
                     </div>
-                    <CTAbutton active={true} linkto={"/signup"}>
+                    <Activebutton active={true} linkto={"/signup"}>
                         <div>
                             Learn more
                         </div>
-                    </CTAbutton>
+                    </Activebutton>
                     </div>
 
                 </div>

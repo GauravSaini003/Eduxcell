@@ -1,5 +1,5 @@
 import React from "react";
-import CTAbutton from "../Homepage/CTAbutton";
+import Activebutton from "../Homepage/Activebutton"
 
 const LearningGridArray = [
   {
@@ -70,9 +70,9 @@ const LearningGrid = () => {
                 </p>
 
                 <div className="w-fit mt-2">
-                  <CTAbutton active={true} linkto={card.BtnLink}>
+                  <Activebutton active={true} linkto={card.BtnLink}>
                     {card.BtnText}
-                  </CTAbutton>
+                  </Activebutton>
                 </div>
               </div>
             ) : (
