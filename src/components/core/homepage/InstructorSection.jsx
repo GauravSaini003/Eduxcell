@@ -1,6 +1,6 @@
 import React from 'react'
 import Instructor from "../../../assets/Images/Instructor.png"
-import Activebutton from "./Activebutton"
+import Activebutton from "./Activebutton.jsx"
 import { FaArrowRight } from 'react-icons/fa'
 
 

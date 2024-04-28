@@ -1,5 +1,5 @@
 import React from "react";
-import Activebutton from "./Activebutton"
+import Activebutton from "./Activebutton.jsx"
 import { TypeAnimation } from "react-type-animation";
 import { FaArrowRight } from "react-icons/fa";
 
