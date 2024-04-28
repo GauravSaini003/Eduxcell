@@ -1,12 +1,12 @@
 import React from 'react'
 import {FaArrowRight} from "react-icons/fa"
 import {Link} from "react-router-dom"
-import Activebutton from "../components/core/Homepage/Activebutton.jsx"
-import CodeBlocks from "../components/core/Homepage/CodeBlocks"
-import TimelineSection from "../components/core/Homepage/TimelineSection"
-import LearningLanguageSection from "../components/core/Homepage/LearningCards"
-import InstructorSection from "../components/core/Homepage/InstructorSection"
-import ExploreMore from "../components/core/Homepage/ExploreMore"
+import Activebutton from "../components/core/homepage/Activebutton.jsx"
+import CodeBlocks from "../components/core/homepage/CodeBlocks.jsx"
+import TimelineSection from "../components/core/homepage/TimelineSection.jsx"
+import LearningLanguageSection from "../components/core/homepage/LearningCards.jsx"
+import InstructorSection from "../components/core/homepage/InstructorSection.jsx"
+import ExploreMore from "../components/core/homepage/ExploreMore.jsx"
 
 
 import Footer from '../components/common/Footer'
