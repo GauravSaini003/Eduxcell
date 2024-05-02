@@ -67,7 +67,7 @@ export default function VideoDetailsSidebar({ setReviewModal }) {
         </div>
 
         <div className="h-[calc(100vh - 5rem)] overflow-y-auto">
-          {courseSectionData.map((course, index) => (
+          {courseSectionData?.map((course, index) => (
             <div
               className="mt-2 cursor-pointer text-sm text-richblack-5"
               onClick={() => setActiveStatus(course?._id)}
